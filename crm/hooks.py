@@ -1,5 +1,5 @@
-app_name = "crm"
-app_title = "Frappe CRM"
+app_name = "portal"
+app_title = "Frappe Portal"
 app_publisher = "Frappe Technologies Pvt. Ltd."
 app_description = "Kick-ass Open Source CRM"
 app_email = "shariq@frappe.io"
@@ -14,9 +14,9 @@ app_icon_route = "/crm"
 # required_apps = []
 add_to_apps_screen = [
 	{
-		"name": "crm",
+		"name": "portal",
 		"logo": "/assets/crm/images/logo.svg",
-		"title": "CRM",
+		"title": "Portal",
 		"route": "/crm",
 		"has_permission": "crm.api.check_app_permission",
 	}
